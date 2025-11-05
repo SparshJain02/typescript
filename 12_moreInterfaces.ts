@@ -1,4 +1,3 @@
-
 // this is what we have learned earlier 
 interface User {
     name: string;
@@ -14,7 +13,8 @@ interface User{
 
 const user1:User = {
     name: "Sparsh",
-    al_post: 33,
+    email: "adam@gmail.com",
+    total_post: 33,
     newPostCount: 2 
 }
 
@@ -30,5 +30,4 @@ const admin1: Admin = {
     _id: "#22323",
     password: "admin is lazy",
     ...user1
-}email: "adam@gmail.com",
-    tot
+}
